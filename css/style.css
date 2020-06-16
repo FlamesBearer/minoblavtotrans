@@ -468,7 +468,7 @@ h2{
 	top: 48px;
 }
 
-.list li:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.2)}
+.list li:hover:before{box-shadow: 0 0 0 10px rgba(0,0,0,.5)}
 
 .list li:last-child:after {content: none;}
 
@@ -506,7 +506,7 @@ h2{
 	transform: translate(0, 0);
 }
 
-.btn:hover:before{transform: translate(4px, 4px);	}
+.btn:hover:before{transform: translate(4px, 4px);}
 
 .tariff{
 	font-size: 16px;
@@ -525,7 +525,6 @@ h2{
 footer{
 	width: 100%;
 	padding: 80px 0px 10px;
-	background: aqamarine;
 	bottom: 0;
 }
 
